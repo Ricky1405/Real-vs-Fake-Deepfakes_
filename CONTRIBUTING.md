@@ -25,8 +25,8 @@ Click the **Fork** button at the top-right of this page to create your own copy 
 ### 2. Clone Your Fork
 
 ```bash
-git clone https://github.com/your-username/Image-Classifier.git
-cd Probability-Calculator
+git clone https://github.com/your-username/Real-vs-Fake-Deepfakes_.git
+cd Real-vs-Fake-Deepfakes_
 ```
 
 ### 3. Create a New Branch
@@ -76,7 +76,7 @@ Please be kind and respectful in all interactions. Harassment or discrimination 
 ## 📬 Need Help?
 
 If you're stuck or have any questions:
-- Create an [issue](https://github.com/your-username/Image-Classifier/issues)
+- Create an [issue](https://github.com/your-username/Real-vs-Fake-Deepfakes_/issues)
 - Tag a maintainer or mention your problem in the issue
 
 ---
