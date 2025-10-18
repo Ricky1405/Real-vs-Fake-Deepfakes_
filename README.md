@@ -88,28 +88,23 @@ Classification: FAKE Confidence: 98.78%
 ## 🗂️ Project Struct
 
 ```
-Deepfake-Classifier/
-├── run.py                 # Application entry point
-├── models/
-│   └── deepfake_model.h5  # The trained HDF5 model file
-├── backend/
-│   ├── __init__.py        # Flask app factory
-│   ├── routes/
-│   │   └── classifier_routes.py # API endpoints and routing logic
-│   ├── utils/
-│   │   └── classifier.py  # Core model loading and prediction logic
-│   ├── static/
-│   │   ├── script.js      # JavaScript for frontend interaction (e.g., upload)
-│   │   └── style.css      # Styling for the frontend
-│   └── templates/
-│       └── index.html     # Main HTML page served by Flask
-├── requirements.txt       # List of Python dependencies
-├── README.md              # Project overview and usage
-├── PROJECT_STRUCTURE.md   # Detailed guide explaining each file
-├── CONTRIBUTING.md        # Contribution instructions
-├── CODE_OF_CONDUCT.md     # Contributor behavior guidelines
-├── LICENSE                # License file
-└── .gitignore             # Git ignored files
+PROJECT/
+├── .venv/
+├── .vscode/
+├── hardrvsf/
+│   ├── fake/
+│   └── real/
+├── data.csv
+├── logs/
+├── rvsf/
+│   ├── real_vs_fake / real-vs-fake/
+│   │   ├── test/
+│   │   ├── train/
+│   │   └── valid/
+│   ├── test.csv
+│   ├── train.csv
+│   └── valid.csv
+└── python.ipynb
 ```
 
 For a detailed, beginner-friendly explanation of what each file does, please read our guide:
