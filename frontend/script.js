@@ -64,8 +64,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 // --- To test your error handling, uncomment this block: ---
                 // const mockError = { error: 'Mock Error: Image is unreadable' };
                 // resolve({
-                //     ok: false,
-                //     json: () => Promise.resolve(mockError)
+                //     ok: false,
+                //     json: () => Promise.resolve(mockError)
                 // });
 
             }, 1800); // 1.8 second delay
@@ -88,17 +88,17 @@ document.addEventListener('DOMContentLoaded', () => {
 
         try {
             // ===================================================
-            // STEP 1: USE THE MOCK CALL (while building UI)
+            // STEP 1: MOCK CALL (NOW COMMENTED OUT)
             // ===================================================
-            const response = await mockApiCall(formData);
+            // const response = await mockApiCall(formData);
             
             // ===================================================
-            // STEP 2: USE THE REAL CALL (for final integration)
+            // STEP 2: REAL CALL (NOW ENABLED)
             // ===================================================
-            // const response = await fetch('http://127.0.0.1:5000/predict', {
-            //     method: 'POST',
-            //     body: formData,
-            // });
+            const response = await fetch('http://127.0.0.1:5000/predict', {
+                method: 'POST',
+                body: formData,
+            });
             // ===================================================
 
             const data = await response.json();
